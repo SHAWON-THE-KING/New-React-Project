@@ -3,11 +3,13 @@
 @import "tailwindcss";
 
 
-:root {
+@theme {
+  --breakpoint-*: initial;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1020px;
   --breakpoint-xl: 1280px;
+  
 }
 
 @layer utilities {

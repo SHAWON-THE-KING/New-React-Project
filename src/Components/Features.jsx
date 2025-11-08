@@ -21,7 +21,7 @@ const Features = () => {
                         />
                     </div>
 
-                    <div className='flex flex-wrap gap-10 w-full pt-12'>
+                    <div className='flex flex-wrap gap-6 pt-12'>
 
                         <div className='w-[405px] bg-white px-12 py-14 mx-auto'>
                             <img className='pb-5' src={icon1} alt="" />

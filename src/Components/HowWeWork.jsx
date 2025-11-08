@@ -11,7 +11,7 @@ const HowWeWork = () => {
             <div className='py-32 bg-secondary '>
                 <div className="container">
 
-                    <div className='flex gap-90'>
+                    <div className='flex justify-between'>
 
                         <div>
                             <CommonHeader
@@ -21,7 +21,7 @@ const HowWeWork = () => {
 
 
                             <div className='flex items-center gap-2.5 hover:text-[#2405F2] pt-4'>
-                                <p className='text-[18px] font-medium leading-8'>
+                                <p className='text-[18px] font-medium'>
                                     Get in touch with us
                                 </p>
                                 <FaArrowRightLong />
