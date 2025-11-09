@@ -8,7 +8,7 @@ import CommonHeader from './CommonHeader'
 const WorkCatagory = () => {
     return (
         <div>
-            <div className='flex flex-wrap gap-12 w-[654px]'>
+            <div className='flex flex-wrap gap-8 md:gap-12 w-full md:w-[654px] justify-center md:justify-start'>
                 <div>
                     <img src={pointer1} alt="" />
 

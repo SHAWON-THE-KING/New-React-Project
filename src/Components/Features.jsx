@@ -12,14 +12,15 @@ const Features = () => {
         <>
             <div className='py-32 bg-secondary'>
                 <div className="container">
-                    <div className='text-center'>
+                    <div className="text-center">
                         <CommonHeader
                             title="Features"
                             titleClass="text-p"
                             description="Design that solves problems, one product at a time"
-                            descClass="text-p text-[48px] font-medium w-[630px] mx-auto mt-3 "
+                            descClass="text-p text-[48px] font-medium max-w-lg mx-auto mt-3 text-center"
                         />
                     </div>
+
 
                     <div className='flex flex-wrap gap-6 pt-12'>
 

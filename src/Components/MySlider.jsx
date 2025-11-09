@@ -13,7 +13,7 @@ function MySlider() {
     slidesToScroll: 1
   };
   return (
-    <div className="w-[843px]">
+    <div className="w-full md:w-[843px] ">
       <Slider {...settings}>
         <div>
           <h3 className="text-3xl font-medium">"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h3>

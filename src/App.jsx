@@ -7,6 +7,8 @@ import Features from './Components/Features'
 import Clients from './Components/Clients'
 import Questions from './Components/Questions'
 import SendInquiry from './Components/SendInquiry'
+import Blog from './Components/Blog'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +23,8 @@ function App() {
      <Clients/>
      <Questions/>
      <SendInquiry/>
+     <Blog/>
+     <Footer/>
     </>
   )
 }

@@ -11,21 +11,21 @@ const HowWeWork = () => {
             <div className='py-32 bg-secondary '>
                 <div className="container">
 
-                    <div className='flex justify-between'>
-
-                        <div>
+                    <div className='flex flex-col  md:flex-row justify-between md:items-start gap-12 md:gap-0'>
+                        <div className="text-center md:text-left">
                             <CommonHeader
                                 title="Our Process"
-                                description="This is a sample paragraph that explains our process in detail."
+                                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
                             />
 
 
-                            <div className='flex items-center gap-2.5 hover:text-[#2405F2] pt-4'>
-                                <p className='text-[18px] font-medium'>
+                            <div className="flex items-center gap-2.5 hover:text-[#2405F2] pt-4 justify-center md:justify-start">
+                                <p className="text-[18px] font-medium">
                                     Get in touch with us
                                 </p>
                                 <FaArrowRightLong />
                             </div>
+
                         </div>
 
                         <WorkCatagory />
