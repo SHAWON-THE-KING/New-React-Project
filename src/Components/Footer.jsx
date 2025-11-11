@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
             <div className="container">
                 <footer>
-                    <div className="flex flex-col md:flex-row justify-between py-6 sm:py-8 items-center gap-6">
+                    <div className="flex flex-col md:flex-row md:justify-between md:mt-8 md:py-0 xs:py-8 gap-6">
                         <div>
                             <a href="#">
                                 <p className="text-center md:text-left">Copyright 2022, Finsweet.com</p>

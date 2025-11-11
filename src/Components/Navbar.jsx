@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Button from "./Button";
 import { FiAlignJustify } from "react-icons/fi";
+import { NavLink } from "react-router";
+
 
 
 export default function Navbar() {
@@ -30,34 +32,34 @@ export default function Navbar() {
                     >
                         <ul className="flex  flex-col md:flex-row gap-8 text-[#BBBBCB]">
                             <li>
-                                <a href="#" className="hover:text-white">
+                                <NavLink to="/" className="hover:text-white" end>
                                     Home
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white">
+                                <NavLink to="/About" className="hover:text-white" end>
                                     About us
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white">
+                                <NavLink to="/Features" className="hover:text-white" end>
                                     Features
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white">
+                                <NavLink to="/Pricing" className="hover:text-white" end>
                                     Pricing
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white">
+                                <NavLink to="/FAQ" className="hover:text-white" end>
                                     FAQ
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
-                                <a href="#" className="hover:text-white">
+                                <NavLink to="/Blog" className="hover:text-white" end>
                                     Blog
-                                </a>
+                                </NavLink>
                             </li>
 
                             {/* Contact button inside menu for mobile */}
@@ -67,7 +69,7 @@ export default function Navbar() {
                         </ul>
                     </div>
 
-                    
+
                     <div className="hidden md:block">
                         <Button>Contact us</Button>
                     </div>

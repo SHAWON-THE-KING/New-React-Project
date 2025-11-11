@@ -9,13 +9,13 @@ import Questions from './Components/Questions'
 import SendInquiry from './Components/SendInquiry'
 import Blog from './Components/Blog'
 import Footer from './Components/Footer'
+import Loop from './Pages/Loop'
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Navbar/>
      <Banner/>
      <HowWeWork/>
      <OurProject/>
@@ -24,9 +24,9 @@ function App() {
      <Questions/>
      <SendInquiry/>
      <Blog/>
-     <Footer/>
+
     </>
   )
 }
 
-export default App
+export default Home

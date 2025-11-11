@@ -2,9 +2,11 @@ import React from "react";
 import banner from "../assets/Banner.png";
 import Button from "./Button";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Loop from "../Pages/Loop";
 
 const Banner = () => {
   return (
+
     <div className="bg-primary">
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between py-16 md:py-32 items-center md:items-start gap-12 md:gap-0">
@@ -37,7 +39,8 @@ const Banner = () => {
         </div>
       </div>
     </div>
-  );
+
+);
 };
 
 export default Banner;
