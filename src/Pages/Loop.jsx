@@ -19,7 +19,7 @@ const Loop = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center fixed top-[45%] left-[48%] bg-transparent  perspective-500 bg-black">
+    <div className="flex justify-center items-center fixed top-[45%] left-[48%] bg-transparent  perspective-500 ">
       <div
         ref={cubeRef}
         className="w-32 h-32 relative transform-style-preserve-3d bg-amber-300"
